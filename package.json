@@ -1,0 +1,29 @@
+{
+  "name": "com.demo.qrscanner",
+  "displayName": "QRScannerDemo",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application to test cordova-plugin-qrscanner plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "argo-nauta",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-plugin-qrscanner": "^3.0.1",
+    "cordova-plugin-whitelist": "^1.3.5"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-qrscanner": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
